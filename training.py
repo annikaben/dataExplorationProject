@@ -74,7 +74,7 @@ def trainElasticNet(train_x, val_x, train_y, val_y, i):
     :param val_x: dataset without the target to validate the models prediction
     :param_train_y: training dataset consisting of the values of the target 
     :param val_y: dataset consisting of the values of the target to allow evaluation of the models accuracy
-    :param i: changing value of the regularization parameter C
+    :param i: changing value of the regularization parameter C and l1_ratio
     """
     with mlflow.start_run():
         lr_model = LogisticRegression(penalty='elasticnet', solver='saga', l1_ratio=i/10, C=i, max_iter=1000)
@@ -98,4 +98,6 @@ def trainElasticNet(train_x, val_x, train_y, val_y, i):
         })
         mlflow.sklearn.log_model(lr_model, "model")
 
-beginTraining(importDf())
+#beginTraining(importDf())
+#train_x, val_x, train_y, val_y, df_test = splitDf(importDf())
+#df_test.to_csv('./data/datasetTesting.csv', index=False)

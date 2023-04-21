@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bendera/AssignmentDEP/assignment_studentdata/code/mlruns/0/7ba186de00604009b355dbff39b7dec3/artifacts
+end_time: 1682086256504
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ba186de00604009b355dbff39b7dec3
+run_name: rare-asp-622
+run_uuid: 7ba186de00604009b355dbff39b7dec3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682086254257
+status: 3
+tags: []
+user_id: bendera

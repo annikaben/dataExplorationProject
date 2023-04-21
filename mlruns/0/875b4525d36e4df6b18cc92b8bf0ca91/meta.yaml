@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bendera/AssignmentDEP/assignment_studentdata/code/mlruns/0/875b4525d36e4df6b18cc92b8bf0ca91/artifacts
+end_time: 1682086268940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 875b4525d36e4df6b18cc92b8bf0ca91
+run_name: melodic-sloth-103
+run_uuid: 875b4525d36e4df6b18cc92b8bf0ca91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682086266348
+status: 3
+tags: []
+user_id: bendera

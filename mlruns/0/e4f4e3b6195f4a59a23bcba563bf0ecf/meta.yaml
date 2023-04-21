@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/bendera/AssignmentDEP/assignment_studentdata/code/mlruns/0/e4f4e3b6195f4a59a23bcba563bf0ecf/artifacts
+end_time: 1682086261305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4f4e3b6195f4a59a23bcba563bf0ecf
+run_name: glamorous-mare-771
+run_uuid: e4f4e3b6195f4a59a23bcba563bf0ecf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1682086258869
+status: 3
+tags: []
+user_id: bendera

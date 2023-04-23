@@ -99,5 +99,3 @@ def trainElasticNet(train_x, val_x, train_y, val_y, i):
         mlflow.sklearn.log_model(lr_model, "model")
 
 #beginTraining(importDf())
-#train_x, val_x, train_y, val_y, df_test = splitDf(importDf())
-#df_test.to_csv('./data/datasetTesting.csv', index=False)
